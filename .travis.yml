@@ -10,3 +10,5 @@ branches:
 rvm:
  - 2.5.3
 exclude: [vendor]
+notifications:
+  email: false
