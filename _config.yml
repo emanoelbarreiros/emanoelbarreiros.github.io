@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    :  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    :  "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Emanoel Barreiros"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Father, husband, coder (who doesn't like coffee that much). PhD in Computer Science."
+  bio              : "Father, husband, coder, gamer. PhD in Computer Science."
   location         : "Garanhuns, Brazil"
   email            :
   links:
