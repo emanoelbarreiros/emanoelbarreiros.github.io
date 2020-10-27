@@ -8,7 +8,7 @@ tags: [python, pyxel]
 published: true
 ---
 
-Neste post vamos implementar o conceito de gravidade, muito comum é uma grande variedade de jogos.
+Neste post vamos implementar o conceito de gravidade, muito comum é uma grande variedade de jogos. Este é o primeiro post de uma série sobre velocidade e aceleração. A segunda parte pode ser encontrada [aqui]({% post_url 2020-10-27-estilingue %}).
 
 ## O conceito de gravidade
 
