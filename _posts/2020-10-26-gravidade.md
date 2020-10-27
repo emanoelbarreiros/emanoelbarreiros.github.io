@@ -3,7 +3,7 @@ layout: single
 title:  "Implementando aceleração [parte 1 - gravidade]"
 toc: true
 comments: true
-categories: [game, snake]
+categories: [game]
 tags: [python, pyxel]
 published: true
 ---
