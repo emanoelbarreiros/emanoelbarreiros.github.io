@@ -10,3 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+  - title: Home
+    url: /
+  - title: Prog. Funcional
+    url: /funcional
