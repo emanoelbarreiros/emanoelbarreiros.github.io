@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[1] Começando com Haskell"
+title:  "[2] Começando com Haskell"
 toc: true
 tags: [haskell]
 ---
