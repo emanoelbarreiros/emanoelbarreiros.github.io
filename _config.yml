@@ -290,6 +290,7 @@ collections:
   funcional:
     output: true
     permalink: /:collection/:path
+    sort_by: lesson
   tags:
     output: true
     permalink: tags/:path/

@@ -3,6 +3,7 @@ layout: single
 title:  "[2] Começando com Haskell"
 toc: true
 tags: [haskell]
+lesson: 2
 ---
 
 Neste post daremos os primeiros passos com a linguagem Haskell.

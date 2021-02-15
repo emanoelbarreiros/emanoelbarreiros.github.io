@@ -2,6 +2,7 @@
 layout: single
 title:  "[1] Introdução à Programação Funcional"
 toc: true
+lesson: 1
 ---
 
 Neste post vamos iniciar o estudo do paradigma funcional. Como ferramenta, usaremos a linguagem de programação [Haskell](https://www.haskell.org/).

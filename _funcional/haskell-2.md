@@ -2,6 +2,7 @@
 layout: single
 title:  "[3] Tipos e Classes (Parte 1 de 2)"
 toc: true
+lesson: 3
 ---
 
 Este artigo fala sobre tipos e classes, conceitos 
