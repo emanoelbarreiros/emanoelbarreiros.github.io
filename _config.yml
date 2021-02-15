@@ -290,7 +290,11 @@ collections:
   funcional:
     output: true
     permalink: /:collection/:path
-    sort_by: lesson
+    order:
+      - introducao.md
+      - haskell1.md
+      - haskell2.md
+      - haskell3.md
   tags:
     output: true
     permalink: tags/:path/
