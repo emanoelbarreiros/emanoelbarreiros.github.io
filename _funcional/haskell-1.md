@@ -89,7 +89,7 @@ O Prelude é o módulo básico do Haskell, trazendo algumas funções básicas. 
 > 15
 
 * `product`: Calcula o produto de todos os elementos de uma lista de números
-> Prelude> sum [1,2,3,4,5]  
+> Prelude> product [1,2,3,4,5]  
 > 120
 
 * `++` (operador, utiliza notação infixa): Concatena duas listas

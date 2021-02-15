@@ -70,17 +70,17 @@ Todos os tipos básicos *Bool*, *Char*, *String*, *Int*, *Integer* e *Float* sã
 Esta classe contém os tipos que são instâncias da classe *Eq*, mas adicionam a restrição que todos os seus valores sejam linearmente ordenáveis, e consequentemente podem ser comparados utilizando-se os seguintes métodos:
 
 ```haskell
-(<) :: a → a → Bool
-(<=) :: a → a → Bool
-(>) :: a → a → Bool
-(>=) :: a → a → Bool
-min :: a → a → a
-max :: a → a → a
+(<) :: a -> a -> Bool
+(<=) :: a -> a -> Bool
+(>) :: a -> a -> Bool
+(>=) :: a -> a -> Bool
+min :: a -> a -> a
+max :: a -> a -> a
 ```
 
 A restrição de classe `Ord a =>` está sendo omitida por simplicidade, mas formalmente ela faz parte da definição do tipo dos métodos. Todos os tipos básicos *Bool*, *Char*, *String*, *Int*, *Integer* e *Float* são instâncias da classe *Ord*, bem como listas e tuplas, desde que os tipos de seus elementos também sejam instâncias da classe *Ord*. Exemplos:
 
-> Prelude> False < False  
+> Prelude> False < True  
 > True  
 > Prelude> min 'a' 'b'  
 > 'a'  
