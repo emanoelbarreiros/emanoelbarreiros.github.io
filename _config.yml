@@ -292,9 +292,9 @@ collections:
     permalink: /:collection/:path
     order:
       - introducao.md
-      - haskell1.md
-      - haskell2.md
-      - haskell3.md
+      - haskell-1.md
+      - haskell-2.md
+      - haskell-3.md
   tags:
     output: true
     permalink: tags/:path/
