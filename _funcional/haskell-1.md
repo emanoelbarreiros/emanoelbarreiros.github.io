@@ -32,7 +32,7 @@ Temos à disposição as operações matemáticas de soma, subtração, multipli
 > Prelude> 3 / 2  
 > 1.5
 > 
-> Prelude> 3 `div` 2  
+> Prelude> 3 \`div\` 2  
 > 1
 > 
 > Prelude> 3 ^ 2  
@@ -47,10 +47,10 @@ Uma coisa interessante é que `div` é uma função que recebe dois argumentos e
 | 1                    | \>\>, \>\>=                 |                      |                            |
 | 2                    |                             |                      | \|\|                       | 
 | 3                    |                             |                      | &&                         |
-| 4                    |                             | ==, /=, <, <=, >, >=, `elem`, `notElem` |         |
+| 4                    |                             | ==, /=, <, <=, >, >=, \`elem\`, \`notElem\` |         |
 | 5                    |                             |                      | :, ++                      |
 | 6                    | +, -                        |                      |                            | 
-| 7                    | ⋆, /, `div`, `mod`, `rem`, `quot` |                |                            | 
+| 7                    | ⋆, /, \`div\`, \`mod\`, \`rem\`, \`quot\` |                |                            | 
 | 8                    |                             |                      | ^, ^^, **                  |
 | 9                    | !!                          |                      | .                          | 
 
