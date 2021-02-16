@@ -106,7 +106,7 @@ O Prelude é o módulo básico do Haskell, trazendo algumas funções básicas. 
 Como você já deve ter percebido, a aplicação das funções por padrão utiliza a forma prefixa, o que significa que você deve escrever o nome da função, seguido por um espaço e os argumentos da função, separados por espaços. Uma coisa importante para lembrar, a **aplicação de funções tem a precedência 10**, ou seja, maior do que qualquer operador. Isso pode criar algumas confusões mentais. Por exemplo, considere a função abaixo:
 
 ```haskell
-menor x y = x <= y then x else y
+menor x y = if x <= y then x else y
 ```
 
 O resultado da aplicação `menor 5 1 + 6` é 7, pois a ordem de execução é primeiro `menor 5 1`, cujo resultado é 1, e só depois a soma `1 + 6` é executada.
