@@ -49,9 +49,9 @@ Veja como a função `signum` poderia ser definida usando guardas:
 
 ```haskell
 signum :: Int -> Int
-signum n | n < 0 = 0
+signum n | n < 0 = -1
          | n == 0 = 0
-         | otherwise = -1
+         | otherwise = 1
 ```
 
 Perceba que em cada guarda temos uma condição que deve ser satisfeita para que aquele trecho de código seja selecionado. Na primeira guarda, por exemplo, a funções retornará 0 caso a condição `n < 0` seja satisfeita. Na última guarda o termo `otherwise` funciona como um *caso contrário*, ou seja, caso nenhuma das condições anteriores seja satisfeita, a função selecionará a expressão marcada com o `otherwise`.
@@ -149,7 +149,7 @@ A contrabarra que inicia a definição da função é apenas uma alusão a letra
 
 ```haskell
 soma :: Int -> Int -> Int
-soma x y = x + Y
+soma x y = x + y
 ```
 
 Pode ser entendida como
