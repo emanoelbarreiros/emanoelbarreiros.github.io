@@ -176,7 +176,7 @@ Na prática esses métodos são usados utilizand-se a notação infixa, envolven
 Esta classe contém os tipos que são instâncias da classe *Num*, mas que cujos valores não são *Integral* (não inteiros) e, como tal, suportam as operações de divisão fracrionária e recípro:
 
 ```haskell
-(/) :: a -> a _->_ a
+(/) :: a -> a -> a
 recip :: a -> a
 ```
 
