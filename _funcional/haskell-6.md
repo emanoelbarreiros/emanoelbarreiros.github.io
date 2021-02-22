@@ -56,7 +56,7 @@ Iniciemos implementando uma função chamada *inserir*, que é capaz de inserir 
 inserir :: Ord a => a -> [a] -> [a]
 inserir x [] = [x]
 inserir x (y:ys) 
-    | x <= y = x : y : xs
+    | x <= y = x : y : ys
     | otherwise = y : inserir x ys
 ```
 
