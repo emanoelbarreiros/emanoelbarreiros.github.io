@@ -73,10 +73,10 @@ A linha 1 informa que a soma de uma lista vazia é 0, e a segunda diz que a soma
 
 ```
    soma [1,2,3]
-=  1 + soma [2,3] -> aplicando soma
-=  1 + (2 + soma[3]) -> aplicando soma
-=  1 + (2 + (3 + soma[])) -> aplicando soma
-=  1 + (2 + (3 + 0)) -> aplicando soma
+=  1 + soma [2,3] --> aplicando soma
+=  1 + (2 + soma[3]) --> aplicando soma
+=  1 + (2 + (3 + soma[])) --> aplicando soma
+=  1 + (2 + (3 + 0)) --> aplicando soma
 =  6 -> aplicando +
 ```
 
