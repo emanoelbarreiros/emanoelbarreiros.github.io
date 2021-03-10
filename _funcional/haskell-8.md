@@ -108,7 +108,7 @@ type Assoc k v = [(k,v)]
 buscar :: (Eq a, Eq b) => a -> Assoc a b -> Maybe b
 buscar k xs
     | xs == [] = Nothing
-    | k == fst (head xs) = head xs
+    | k == fst (head xs) = Just (snd (head xs))
     | otherwise = buscar k (tail xs)
 ```
 
@@ -195,7 +195,7 @@ Podemos considerar agora algumas funções em árvores:
 ```haskell
 existe :: Eq a => a -> Arvore a -> Bool
 existe x (Folha y) = x == y
-existe x (no esq y dir) = x == y || existe x esq || existe x dir
+existe x (No esq y dir) = x == y || existe x esq || existe x dir
 ```
 
 Traduzindo, um valor existe na folha se ele é igual ao valor naquela folha, e existe em um nó se ele é igual ao valor armazenado no nó ou existe na sub-árvore esquerda ou na sub-árvore direita. A função abaixo serializa uma árvore:
